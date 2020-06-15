@@ -11,4 +11,4 @@
 
 ## Production mode
 - npm run build
--
+- place contents of /dist directory to src/main/resources/static in Spring Boot project
