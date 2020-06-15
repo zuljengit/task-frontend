@@ -1,14 +1,13 @@
-## Tech Stack: ReactJS, Webpack 4, Babel 7, Bootstrap 4, Eslint, Prettier
+## Task frontend Tech Stack: ReactJS, Webpack 4, Babel 7, Bootstrap 4, Eslint, Prettier
 
-## Installation
-
+## Install
 - cd task-frontend
 - npm install
 
-## Development mode
+## Run in development mode
 - npm start
 - open `http://localhost:8080/`
 
-## Production mode
+## Run in production mode
 - npm run build
-- place contents of /dist directory to src/main/resources/static in Spring Boot project
+- place contents from /dist to src/main/resources/static in Spring Boot project
