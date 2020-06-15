@@ -1,4 +1,6 @@
-## Install guide
+## Tech Stack: ReactJS, Webpack, Babel, Bootstrap 4, Eslint, Prettier!
+
+# Install guide
 
 - cd task-frontend
 - npm install
