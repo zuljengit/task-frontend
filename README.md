@@ -1,4 +1,4 @@
-## Task frontend Tech Stack: ReactJS, Webpack 4, Babel 7, Bootstrap 4, Eslint, Prettier
+# Task frontend Tech Stack: ReactJS, Webpack 4, Babel 7, Bootstrap 4, Eslint, Prettier
 
 ## Install
 - cd task-frontend
