@@ -4,5 +4,11 @@
 
 - cd task-frontend
 - npm install
+
+## Development mode
 - npm start
 - open `http://localhost:8080/`
+
+## Production mode
+- npm run build
+-
