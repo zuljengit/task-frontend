@@ -1,6 +1,6 @@
 ## Install guide
 
-- cd task-front
+- cd task-frontend
 - npm install
 - npm start
-- visit `http://localhost:8080/`
+- open `http://localhost:8080/`
