@@ -13,7 +13,17 @@ module.exports = {
           {
             loader: 'babel-loader',
             options: {
-              presets: ['@babel/preset-env', '@babel/preset-react'],
+              presets: [
+                [
+                  '@babel/preset-env',
+                  {
+                    targets: {
+                      esmodules: true,
+                    },
+                  },
+                ],
+                '@babel/preset-react',
+              ],
               plugins: ['@babel/plugin-proposal-class-properties'],
             },
           },

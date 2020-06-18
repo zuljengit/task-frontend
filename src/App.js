@@ -5,8 +5,9 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
-import { ConferenceComponent } from './components/conference.component';
-import { HomeComponent } from './components/home.component';
+
+import Home from './components/home.';
+import Conference from './components/conference';
 
 export default function BasicExample() {
   return (
@@ -26,10 +27,10 @@ export default function BasicExample() {
         {}
         <Switch>
           <Route exact path="/">
-            <HomeComponent />
+            <Home />
           </Route>
           <Route path="/conference">
-            <ConferenceComponent />
+            <Conference />
           </Route>
         </Switch>
       </div>
